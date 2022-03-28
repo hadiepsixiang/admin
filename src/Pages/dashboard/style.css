@@ -77,3 +77,24 @@
     border-radius: 15px;
     margin-top: 18px;
 }
+.form-control {
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 600px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 12px;
+    padding: auto 5px;
+    border: 1px solid #b9b9b9;
+    margin: 0 auto;
+}
+.form-group {
+    border: 1px solid #ffffff;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.choose-select {
+    display: flex;
+}
