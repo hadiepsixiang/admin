@@ -1,0 +1,102 @@
+.sidebar {
+    width: 300px;
+    height: 100%;
+    display:flex;
+    margin:0px 0px 0px 60px;
+    align-items: center;
+}
+.side-form {
+    width:238px;
+    height:600px;
+    display:flex;
+    margin-left:60px;
+    margin-top: 2px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+}
+.bar_01 {
+    width:198px;
+    height:32px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    margin-left: 22px;
+    position: absolute;
+    cursor: pointer;
+
+}
+.bar-text{
+    position: absolute;
+    font-size:18px;
+    font-weight: 500;
+    width:151px;
+    color:#EC643D;
+    margin-left: 8px;
+    margin-top:5px;
+}
+.dashboard_icon {
+    margin-bottom: 32px;
+}
+.bar_02 {
+    width:198px;
+    height:32px;
+    margin-top: 92px;
+    margin-bottom: 16px;
+    margin-left: 22px;
+    position: absolute;
+    cursor: pointer;
+}
+.bar_03 {
+    width:198px;
+    height:32px;
+    margin-top: 152px;
+    margin-bottom: 16px;
+    margin-left: 22px;
+    position: absolute;
+    cursor: pointer;
+}
+.bar_04 {
+    width:198px;
+    height:32px;
+    margin-top: 212px;
+    margin-bottom: 16px;
+    margin-left: 22px;
+    position: absolute;
+    cursor: pointer;
+}
+.bar_05 {
+    width:198px;
+    height:32px;
+    margin-top: 272px;
+    margin-bottom: 16px;
+    margin-left: 22px;
+    position: absolute;
+    cursor: pointer;
+}
+.bar_06 {
+    width:198px;
+    height:32px;
+    margin-top: 332px;
+    margin-bottom: 16px;
+    margin-left: 22px;
+    position: absolute;
+    cursor: pointer;
+}
+.bar_07 {
+    width:198px;
+    height:32px;
+    margin-top: 392px;
+    margin-bottom: 16px;
+    margin-left: 22px;
+    position: absolute;
+    cursor: pointer;
+}
+.bar_08 {
+    width:198px;
+    height:32px;
+    margin-top: 452px;
+    margin-bottom: 16px;
+    margin-left: 22px;
+    position: absolute;
+    cursor: pointer;
+}
