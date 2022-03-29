@@ -6,16 +6,18 @@ export default function sidebar() {
     return (
         <div className="sidebar">
             <div className="side-form">
-
-                <div className="bar_01">
-                    <img className="icon_01" src="././assets/images/dashboard.svg"></img>
-                    <span className="bar-text">Báo cáo thống kê </span>
-                </div>
-
-                <div className="bar_02">
-                    <img className="icon_01" src="././assets/images/qlydanhmuc.svg"></img>
-                    <span className="bar-text">Danh mục </span>
-                </div>
+                <Link to={'/'}>
+                    <div className="bar_01">
+                        <img className="icon_01" src="././assets/images/dashboard.svg"></img>
+                        <span className="bar-text">Báo cáo thống kê </span>
+                    </div>
+                </Link>
+                <Link to={'/cates'}>
+                    <div className="bar_02">
+                        <img className="icon_01" src="././assets/images/qlydanhmuc.svg"></img>
+                        <span className="bar-text">Danh mục </span>
+                    </div>
+                </Link>
                 <div className="bar_03">
                     <img className="icon_01" src="././assets/images/qlysp.svg"></img>
                     <span className="bar-text">Sản phẩm</span>
@@ -28,10 +30,12 @@ export default function sidebar() {
                     <img className="icon_01" src="././assets/images/qlyrate.svg"></img>
                     <span className="bar-text">Đánh giá</span>
                 </div>
-                <div className="bar_06">
-                    <img className="icon_01" src="././assets/images/qlyblog.svg"></img>
-                    <span className="bar-text">Blog</span>
-                </div>
+                <Link to={'/blogs'}>
+                    <div className="bar_06">
+                        <img className="icon_01" src="././assets/images/qlyblog.svg"></img>
+                        <span className="bar-text">Blog</span>
+                    </div>
+                </Link>
                 <Link to={'/users'}>
                     <div className="bar_07">
                         <img className="icon_01" src="././assets/images/qlyacc.svg"></img>
@@ -44,6 +48,6 @@ export default function sidebar() {
                 </div>
             </div>
 
-        </div>
+        </div >
     )
 }

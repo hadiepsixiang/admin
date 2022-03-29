@@ -1,8 +1,6 @@
 import React from 'react'
 import "./style.css"
 import { DataGrid } from '@mui/x-data-grid';
-import { useState } from "react";
-import { Link } from "react-router-dom";
 
 
 
