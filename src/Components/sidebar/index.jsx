@@ -1,14 +1,17 @@
 import React from 'react'
 import "./style.css"
+import { Link } from 'react-router-dom'
 
 export default function sidebar() {
     return (
         <div className="sidebar">
             <div className="side-form">
+
                 <div className="bar_01">
                     <img className="icon_01" src="././assets/images/dashboard.svg"></img>
                     <span className="bar-text">Báo cáo thống kê </span>
                 </div>
+
                 <div className="bar_02">
                     <img className="icon_01" src="././assets/images/qlydanhmuc.svg"></img>
                     <span className="bar-text">Danh mục </span>
@@ -29,10 +32,12 @@ export default function sidebar() {
                     <img className="icon_01" src="././assets/images/qlyblog.svg"></img>
                     <span className="bar-text">Blog</span>
                 </div>
-                <div className="bar_07">
-                    <img className="icon_01" src="././assets/images/qlyacc.svg"></img>
-                    <span className="bar-text">Tài khoản</span>
-                </div>
+                <Link to={'/users'}>
+                    <div className="bar_07">
+                        <img className="icon_01" src="././assets/images/qlyacc.svg"></img>
+                        <span className="bar-text">Tài khoản</span>
+                    </div>
+                </Link>
                 <div className="bar_08">
                     <img className="icon_01" src="././assets/images/goout.svg"></img>
                     <span className="bar-text">Đăng xuất</span>

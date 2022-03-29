@@ -1,5 +1,7 @@
 import React from 'react'
 import "./style.css"
+import { Link } from 'react-router-dom'
+
 
 export default function topbar() {
     return (
@@ -7,7 +9,9 @@ export default function topbar() {
             <div className="nav-form">
                 <div>
                     <div className="up">
+                        <Link to={'/'} >
                         <img className="logo_1" src="././assets/images/logo.png" alt="" />
+                        </Link>
                     </div>
                 </div>
             </div>
