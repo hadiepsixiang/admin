@@ -1,0 +1,99 @@
+.Rates-page {
+    width:902px;
+    height:853px;
+    margin-left: 18px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-top: 18px;
+}
+.Rates-page .rates-thing {
+    display: flex;
+    margin-block-end: 16px;
+}
+.Rates-page .wrap {
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    margin:18px 0 0 32px;
+    border: 1px solid #E1E1E1;
+    position: relative;
+    cursor: pointer;
+}
+.Rates-page .db-text02{
+    font-size:14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    color:#E95324;
+    margin-left:32px;
+    position: absolute;
+    margin:20px 0 0 48px;
+    transform: translate(-50%, -50%);
+}
+.Rates-page .wrap1 {
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    margin:18px 0 0 0;
+    border: 1px solid #E1E1E1;
+    position: relative;
+    cursor: pointer;
+}
+.Rates-page .db-text03{
+    font-size:14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color:#161515;
+    margin-left:32px;
+    position: absolute;
+    margin:20px 0 0 48px;
+    transform: translate(-50%, -50%);
+}
+.rate-form .widgetLg {
+    flex: 3;
+    padding: 0px 0 0 20px;
+}
+.rate-form .widgetLgTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+.rate-form .widgetLgTh{
+    text-align: left;
+    font-size:14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    color:#161515;
+}
+.widgetLgRate{
+    font-size:14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color:#161515;
+}
+.widgetLgimg {
+    width: 111px;
+    height: 99.9px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.rate1 {
+    display: flex;
+}
+.rate1 span {
+    margin:12px 0 0 28px;
+}
+.rate1_2 {
+    display: flex;
+}
+.rate1_1 img {
+    margin-top: 10px;
+}
+.rate1_2 img {
+    margin-right:12px;
+}
+.widgetLgTr {
+    width: 831px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+}

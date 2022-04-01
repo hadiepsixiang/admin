@@ -7,7 +7,7 @@
     border-radius: 15px;
     margin-top: 18px;
 }
-.db-text02{
+.Blogs-page .db-text02{
     font-size:18px;
     font-weight: 600;
     line-height: 21.78px;
@@ -25,7 +25,7 @@
     margin-left: 590px;
     margin-top:18px;
     padding:0px;
-    position: absolute;
+    position: relative;
     cursor: pointer;
 }
 .text_03{
@@ -35,6 +35,8 @@
     color: #ffffff;
     height:50px;
     width: 105px;
+    transform: translate(-50%, -50%);
+
 }
 .icon_03 {
     width: 24px;

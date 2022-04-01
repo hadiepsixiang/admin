@@ -18,18 +18,24 @@ export default function sidebar() {
                         <span className="bar-text">Danh mục </span>
                     </div>
                 </Link>
-                <div className="bar_03">
-                    <img className="icon_01" src="././assets/images/qlysp.svg"></img>
-                    <span className="bar-text">Sản phẩm</span>
-                </div>
-                <div className="bar_04">
-                    <img className="icon_01" src="././assets/images/qlyorder.svg"></img>
-                    <span className="bar-text">Đơn hàng</span>
-                </div>
-                <div className="bar_05">
-                    <img className="icon_01" src="././assets/images/qlyrate.svg"></img>
-                    <span className="bar-text">Đánh giá</span>
-                </div>
+                <Link to={'/ch_products'}>
+                    <div className="bar_03">
+                        <img className="icon_01" src="././assets/images/qlysp.svg"></img>
+                        <span className="bar-text">Sản phẩm</span>
+                    </div>
+                </Link>
+                <Link to={'/orders'}>
+                    <div className="bar_04">
+                        <img className="icon_01" src="././assets/images/qlyorder.svg"></img>
+                        <span className="bar-text">Đơn hàng</span>
+                    </div>
+                </Link>
+                <Link to={'/rates'}>
+                    <div className="bar_05">
+                        <img className="icon_01" src="././assets/images/qlyrate.svg"></img>
+                        <span className="bar-text">Đánh giá</span>
+                    </div>
+                </Link>
                 <Link to={'/blogs'}>
                     <div className="bar_06">
                         <img className="icon_01" src="././assets/images/qlyblog.svg"></img>

@@ -1,5 +1,7 @@
 import React from 'react'
 import "./style.css"
+import { Link } from 'react-router-dom'
+
 
 export default function listtask() {
     return (
@@ -23,10 +25,12 @@ export default function listtask() {
                         <div className="listnum">03</div>
                         <span>Yêu cầu hoàn trả</span>
                     </div>
-                    <div className="jobtask_01">
-                        <div className="listnum">10</div>
-                        <span>Sản phẩm hết hàng</span>
-                    </div>
+                    <Link to={'/hh_products'}>
+                        <div className="jobtask_01">
+                            <div className="listnum">10</div>
+                            <span>Sản phẩm hết hàng</span>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

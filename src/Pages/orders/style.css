@@ -1,0 +1,9 @@
+.orders-page {
+    width:902px;
+    height:953px;
+    margin-left: 18px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-top: 18px;
+}
