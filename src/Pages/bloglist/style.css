@@ -13,36 +13,42 @@
     line-height: 21.78px;
     color:#E95324;
     margin-left:32px;
+    padding-top:12px;
     display: inline-block;
 }
-.btn-primary {
+.Blogs-page .btn-primary {
     border: none;
     background: #E95324;
     border-radius: 8px;
     width: 168px;
     height:45px;
-    text-align: center;
-    margin-left: 590px;
-    margin-top:18px;
-    padding:0px;
-    position: relative;
+    margin-left: 580px;
+    margin-top: 12px;
     cursor: pointer;
 }
-.text_03{
+.Blogs-page .btn-primary p{
     font-weight: 600;
     font-size: 16px;
     line-height: 19.36px;
     color: #ffffff;
     height:50px;
-    width: 105px;
+    margin: 0 103px;
+    width: 138px;
     transform: translate(-50%, -50%);
 
 }
-.icon_03 {
+.Blogs-page .btn-primary .icon_03 {
     width: 24px;
     height:24px;
-    margin-right: 5px;
+    margin: 12px 5px 0 10px;
 }
 .blogform {
     margin-top: 35px;
+}
+.Blogs-page .bl_sth {
+    display: flex;
+    height:76px;
+    width: 902px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E1E1E1;
 }

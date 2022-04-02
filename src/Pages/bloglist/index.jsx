@@ -38,31 +38,31 @@ const row = [
     { id: 8, title: 'Ý nghĩa việc tặng quà cho người thân', cate: 'Quà tặng', time: '11/02/2022' },
     { id: 9, title: 'Cách chọn bàn học làm phù hợp cho phòng', cate: 'Trang trí nội thất', time: '18/01/2022' },
     { id: 10, title: 'Mách bạn cách chọn đèn ngủ đẹp lung linh', cate: 'Trang trí nội thất', time: '05/01/2022' },
-    { id: 11, title: 'Ý tưởng trang trí phòng ngủ đẹp dễ thương', cate: 'Trang trí nội thất' , time: '15/12/2021' },
+    { id: 11, title: 'Ý tưởng trang trí phòng ngủ đẹp dễ thương', cate: 'Trang trí nội thất', time: '15/12/2021' },
     { id: 12, title: 'Trang trí phòng ngủ theo phong cách vintage', cate: 'Trang trí nội thất', time: '01/12/2021' },
-  ];
+];
 export default function bloglist() {
     return (
         <div className="Blogs-page">
-            <div>
+            <div className="bl_sth">
                 <h2 className="db-text02">50 bài viết</h2>
                 <Link to={'/blogs/edit'} >
-                <button className="btn-primary">
-                    <img className="icon_03" src="././assets/images/plus.svg" alt="" />
-                    <span className="text_03">Thêm bài viết</span>
-                </button>
+                    <div className="btn-primary">
+                        <img className="icon_03" src="././assets/images/plus.svg" alt="" />
+                        <p className="text_03">Thêm bài viết</p>
+                    </div>
                 </Link>
             </div>
             <div className="blogform">
-            <div style={{ height: 550, width: '100%' }}>
-                <DataGrid
-                    rows={row} disableSelectionOnClick 
-                    columns={columns}
-                    pageSize={8}
-                    rowsPerPageOptions={[5]}
-                    checkboxSelection
-                />
-            </div>
+                <div style={{ height: 550, width: '100%' }}>
+                    <DataGrid
+                        rows={row} disableSelectionOnClick
+                        columns={columns}
+                        pageSize={8}
+                        rowsPerPageOptions={[5]}
+                        checkboxSelection
+                    />
+                </div>
             </div>
         </div>
     )
