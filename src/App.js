@@ -11,7 +11,8 @@ import CateList from './Pages/cateList/index'
 import RateList from './Pages/rateList/index'
 import Ch_products from './Pages/ch_products/index'
 import Hh_products from './Pages/hh_products/index'
-import Orders from './Pages/orders/index'
+import Wc_orders from './Pages/wc_orders/index'
+import Wg_orders from './Pages/wg_orders/index'
 
 import {
   BrowserRouter as Router,
@@ -33,7 +34,9 @@ function App() {
           <Route path="/rates" element={<RateList />} />
           <Route path="/ch_products" element={<Ch_products />} />
           <Route path="/hh_products" element={<Hh_products />} />
-          <Route path="/orders" element={<Orders />} />
+          <Route path="/wc_orders" element={<Wc_orders />} />
+          <Route path="/wg_orders" element={<Wg_orders />} />
+
         </Routes>
       </div>
     </Router>

@@ -24,7 +24,7 @@ export default function sidebar() {
                         <span className="bar-text">Sản phẩm</span>
                     </div>
                 </Link>
-                <Link to={'/orders'}>
+                <Link to={'/wc_orders'}>
                     <div className="bar_04">
                         <img className="icon_01" src="././assets/images/qlyorder.svg"></img>
                         <span className="bar-text">Đơn hàng</span>

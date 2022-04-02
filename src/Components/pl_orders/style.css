@@ -1,0 +1,81 @@
+.pl_form {
+    width:902px;
+    height:162px;
+    margin-left: 18px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-top: 18px;
+}
+.pl_form .pl_list p {
+    font-size:14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color:#161515;
+    margin:16px 32px 0 32px;
+    cursor: pointer;
+}
+.pl_form .order_pllist {
+    display: flex;
+    margin-left:20px;
+}
+.pl_form .pl_list p:hover,
+.pl_form .pl_list .active {
+  color: #E95324;
+}
+.pl_form .form-control {
+    width:120px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #161515;
+    margin-right: 8px;
+    margin-left:0;
+}
+.pl_form .form-group {
+    margin-left: 52px;
+    margin-top: 16px;
+    cursor: pointer;
+    display: flex;
+}
+.pl_form .search {
+    width: 292px;
+    height: 38px;
+    border: 1px solid #161515;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.pl_form .search input {
+    width: 220px;
+    margin-left: 20px;
+    border: none;
+}
+.pl_form .search input:focus {
+    outline: none;
+}
+.pl_form .search img {
+    margin: 0px 13px;
+}
+.pl_form .pl_button {
+    border: none;
+    background: #E95324;
+    border-radius: 8px;
+    width: 138px;
+    height:40px;
+    margin-left: 227px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.pl_form .pl_button p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #ffffff;
+    height:50px;
+    margin: 10px 38px;
+    width: 138px;
+}
