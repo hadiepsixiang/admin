@@ -10,22 +10,22 @@ export default function Phanloai() {
                 <h2 className="db-subtext">Phân loại đơn hàng</h2>
                 <div className="order_pllist">
                     <Link to={'/wc_orders'}>
-                        <p>Chờ xác nhận</p>
+                        Chờ xác nhận
                     </Link>
                     <Link to={'/wg_orders'}>
-                        <p>Chờ lấy hàng</p>
+                        Chờ lấy hàng
                     </Link>
                     <Link to={'/dl_orders'}>
-                        <p>Đang giao</p>
+                        Đang giao
                     </Link>
                     <Link to={'/dl1_orders'}>
-                        <p>Đã giao</p>
+                        Đã giao
                     </Link>
                     <Link to={'/cc_orders'}>
-                        <p>Đơn hủy</p>
+                        Đơn hủy
                     </Link>
                     <Link to={'/rf_orders'}>
-                        <p>Yêu cầu hoàn trả</p>
+                        Yêu cầu hoàn trả
                     </Link>
                 </div>
                 <div class="form-group">

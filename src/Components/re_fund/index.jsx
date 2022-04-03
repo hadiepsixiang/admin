@@ -1,11 +1,11 @@
 import React from 'react'
 import "./style.css"
 
-export default function w_goods() {
+export default function Yc_tra() {
     return (
         <div className="wc_form">
             <div className="hh_sth">
-                <h2 className="db-text04">43 đơn hàng</h2>
+                <h2 className="db-text04">05 đơn hàng</h2>
             </div>
             <div className="hhp-form">
                 <div className="widgetLg">
@@ -33,7 +33,9 @@ export default function w_goods() {
                             </td>
                             <td className="widgetLgPrice">75.000 đ</td>
                             <td className="widgetLgCate">84VN07032000</td>
-                            <td className="widgetLgAct"><i>Chuẩn bị hàng</i></td>
+                            <td className="widgetLgAct">
+                                <i>Chờ xử lý</i>
+                            </td>
                         </tr>
                         <tr className="widgetLgTr">
                             <td className="widgetLgRate">DG20220703002</td>
@@ -52,7 +54,7 @@ export default function w_goods() {
                             <td className="widgetLgPrice">99.000 đ</td>
                             <td className="widgetLgCate">84VN07032001 </td>
                             <td className="widgetLgAct">
-                                <i>Chuẩn bị hàng</i>
+                                <i>Chờ xử lý</i>
                             </td>
                         </tr>
                         <tr className="widgetLgTr">
@@ -72,7 +74,7 @@ export default function w_goods() {
                             <td className="widgetLgPrice">140.000 đ</td>
                             <td className="widgetLgCate">84VN07032002 </td>
                             <td className="widgetLgAct">
-                                <i>Chuẩn bị hàng</i>
+                                <i>Chờ xử lý</i>
                             </td>
                         </tr>
                         <tr className="widgetLgTr">
@@ -92,7 +94,9 @@ export default function w_goods() {
                             <td className="widgetLgPrice">190.000 đ</td>
                             <td className="widgetLgCate">84VN07032003</td>
                             <td className="widgetLgAct">
-                                <i>Chuẩn bị hàng</i>
+                                <i>Chờ khách</i>
+                                <div></div>
+                                <i>gửi trả hàng</i>
                             </td>
                         </tr>
                         <tr className="widgetLgTr">
@@ -126,7 +130,9 @@ export default function w_goods() {
                             <td className="widgetLgPrice">55.000 đ</td>
                             <td className="widgetLgCate">84VN07032004</td>
                             <td className="widgetLgAct">
-                                <i>Chuẩn bị hàng</i>
+                                <i>Chờ khách</i>
+                                <div></div>
+                                <i>gửi trả hàng</i>
                             </td>
                         </tr>
                     </table>

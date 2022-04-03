@@ -13,6 +13,12 @@ import Ch_products from './Pages/ch_products/index'
 import Hh_products from './Pages/hh_products/index'
 import Wc_orders from './Pages/wc_orders/index'
 import Wg_orders from './Pages/wg_orders/index'
+import Dl_orders from './Pages/dl_orders/index'
+import Dl1_orders from './Pages/delivered/index'
+import Cc_orders from './Pages/cc_orders/index'
+import Rf_orders from './Pages/rf_orders/index'
+import Bl_edit from './Pages/bl_edit/index'
+
 
 import {
   BrowserRouter as Router,
@@ -36,7 +42,11 @@ function App() {
           <Route path="/hh_products" element={<Hh_products />} />
           <Route path="/wc_orders" element={<Wc_orders />} />
           <Route path="/wg_orders" element={<Wg_orders />} />
-
+          <Route path="/dl_orders" element={<Dl_orders />} />
+          <Route path="/dl1_orders" element={<Dl1_orders />} />
+          <Route path="/cc_orders" element={<Cc_orders />} />
+          <Route path="/rf_orders" element={<Rf_orders />} />
+          <Route path="/blog_edit" element={<Bl_edit />} />
         </Routes>
       </div>
     </Router>
