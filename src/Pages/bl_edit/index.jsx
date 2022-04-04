@@ -8,7 +8,7 @@ export default function bl_edit() {
         <h2 className="db-text02">Thông tin bài viết</h2>
         <div className="bl_title">
           <p>Tiêu đề bài viết</p>
-          <input type="text" size="100" />
+          <textarea type="text" size="100" />
         </div>
         <div className="bl_title">
           <p>Hình ảnh bài viết</p>
@@ -31,7 +31,7 @@ export default function bl_edit() {
         </div>
         <div className="bl_title1">
           <p>Nội dung bài viết</p>
-          <input type="text" />
+          <textarea type="text" />
         </div>
         <div className="bl_title">
           <p>Danh mục bài viết</p>
@@ -45,10 +45,10 @@ export default function bl_edit() {
         </div>
         <div className="bl_btn">
           <div className="edit_button">
-            <p className="text_03">Đăng bài viết</p>
+            <p className="text_03">Hủy</p>
           </div>
           <div className="edit_button1">
-            <p className="text_03">Hủy</p>
+            <p className="text_03">Đăng bài viết</p>
           </div>
         </div>
 

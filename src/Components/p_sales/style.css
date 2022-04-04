@@ -1,13 +1,13 @@
-.edit_form {
+.p_sale {
     width:902px;
-    height:953px;
+    height:520px;
     margin-left: 18px;
     background-color: #ffffff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     margin-top: 18px;
 }
-.edit_form .db-text02{
+.p_sale .db-text02{
     font-size:18px;
     font-weight: 600;
     line-height: 21.78px;
@@ -16,64 +16,57 @@
     padding-top:12px;
     display: inline-block;
 }
-.edit_form .bl_title {
-    display: flex;
-    margin-bottom: 24px;
+.p_sale .bl_title input {
+    width: 559px;
+    height: 45px;
+    border: 1px solid #161515;
+    margin-top: 10px;
+    margin-left:67px;
 }
-.edit_form .bl_title p {
+.p_sale .bl_title1 input {
+    width: 559px;
+    height: 45px;
+    border: 1px solid #161515;
+    margin-top: 10px;
+    margin-left:145px;
+}
+.p_sale .bl_title2 input {
+    width: 559px;
+    height: 45px;
+    border: 1px solid #161515;
+    margin-top: 10px;
+    margin-left:92px;
+}
+.p_sale .bl_title p {
     font-size:14px;
     font-weight: 500;
     line-height: 16.94px;
     color:#161515;
     margin-left:32px;
-    margin-right: 64px;
+    margin-right: 16px;
+    width: 100px;
 }
-.edit_form .bl_title textarea {
-    width: 559px;
-    height: 55px;
-    border: 1px solid #161515;
-    margin-top: 10px;
-}
-.edit_form .bl_title img {
-    width: 120px;
-    height: 120px;
-    margin-left:-08px;
-    margin-right:36px;
-    cursor: pointer;
-}
-.edit_form .bl_title1 {
-    display: flex;
-    margin-bottom: 24px;
-}
-.edit_form .bl_title1 p {
+.p_sale .bl_title1 p {
     font-size:14px;
     font-weight: 500;
     line-height: 16.94px;
     color:#161515;
     margin-left:32px;
-    margin-right: 64px;
+    margin-right: 16px;
 }
-.edit_form .bl_title1 textarea {
-    width: 559px;
-    height: 370px;
-    border: 1px solid #161515;
-    margin-top: 10px;
-    margin-left:-09px;
-}
-.edit_form .bl_title .form-control {
-    width:200px;
-    height: 55px;
-    background-color: #ffffff;
-    cursor: pointer;
-    font-size: 14px;
+.p_sale .bl_title2 p {
+    font-size:14px;
     font-weight: 500;
-    border: 1px solid #161515;
-    margin-left:-16px;
-    margin-top:6px;
-    border-radius: 0px;
-    text-align: center;
+    line-height: 16.94px;
+    color:#161515;
+    margin-left:32px;
+    margin-right: 16px;
 }
-.edit_form .edit_button {
+.p_sale .bl_title, .p_sale .bl_title1, .p_sale .bl_title2 {
+    display: flex;
+    margin-bottom: 24px;
+}
+.p_sale .edit_button {
     border: none;
     background: #ffffff;
     border: 1px solid #E95324;
@@ -83,7 +76,7 @@
     margin-left: 200px;
     margin-top: 20px;
 }
-.edit_form .edit_button p{
+.p_sale .edit_button p{
     font-weight: 600;
     font-size: 24px;
     line-height: 29.05pxpx;
@@ -92,10 +85,11 @@
     cursor: pointer;
     margin-top:15px;
 }
-.edit_form .bl_btn {
+.p_sale .bl_btn {
     display: flex;
+    margin-left:16px;
 }
-.edit_form .edit_button1 {
+.p_sale .edit_button1 {
     border: none;
     background: #E95324;
     border-radius: 8px;
@@ -104,12 +98,12 @@
     margin-left: 44px;
     margin-top: 20px;
 }
-.edit_form .edit_button1 p{
+.p_sale .edit_button1 p{
     font-weight: 600;
     font-size: 24px;
     line-height: 29.05pxpx;
     color: #ffffff;
-    padding:0px 0 0 50px;
+    padding:0px 0 0 40px;
     cursor: pointer;
     margin-top:15px;
 }

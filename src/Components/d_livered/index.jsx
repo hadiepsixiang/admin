@@ -5,7 +5,7 @@ export default function Da_giao() {
   return (
     <div className="wc_form">
             <div className="hh_sth">
-                <h2 className="db-text04">264 đơn hàng</h2>
+                <h2 className="db-text04">2264 đơn hàng</h2>
             </div>
             <div className="hhp-form">
                 <div className="widgetLg">

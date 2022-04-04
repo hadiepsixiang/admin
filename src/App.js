@@ -18,7 +18,7 @@ import Dl1_orders from './Pages/delivered/index'
 import Cc_orders from './Pages/cc_orders/index'
 import Rf_orders from './Pages/rf_orders/index'
 import Bl_edit from './Pages/bl_edit/index'
-
+import Pr_edit from './Pages/p_edit/index'
 
 import {
   BrowserRouter as Router,
@@ -47,6 +47,8 @@ function App() {
           <Route path="/cc_orders" element={<Cc_orders />} />
           <Route path="/rf_orders" element={<Rf_orders />} />
           <Route path="/blog_edit" element={<Bl_edit />} />
+          <Route path="/product_edit" element={<Pr_edit />} />
+
         </Routes>
       </div>
     </Router>

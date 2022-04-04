@@ -16,10 +16,12 @@ export default function ch_products() {
             </div>
             <div className="ch_sth">
                 <h2 className="db-text04">50 sản phẩm</h2>
-                <div className="ch_button">
-                    <img className="icon_03" src="././assets/images/plus.svg" alt="" />
-                    <p className="text_03">Thêm sản phẩm</p>
-                </div>
+                <Link to={'/product_edit'} >
+                    <div className="ch_button">
+                        <img className="icon_03" src="././assets/images/plus.svg" alt="" />
+                        <p className="text_03">Thêm sản phẩm</p>
+                    </div>
+                </Link>
             </div>
             <div className="chp-form">
                 <div className="widgetLg">

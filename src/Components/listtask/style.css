@@ -18,6 +18,7 @@
 .jobtask_01 {
     text-align: center;
     margin:24px 18px 0  36px;
+    text-decoration: none;
 }
 .listnum {
     font-weight: 500;
