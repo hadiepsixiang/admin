@@ -1,0 +1,104 @@
+.pr_edit {
+    width:902px;
+    height:1140px;
+    margin-left: 18px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-top: 18px;
+}
+.pr_edit .db-text02{
+    font-size:18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    color:#E95324;
+    margin-left:32px;
+    padding-top:12px;
+    display: inline-block;
+}
+.pr_edit .bl_title {
+    display: flex;
+    margin-bottom: 24px;
+}
+.pr_edit .bl_title p {
+    font-size:14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color:#161515;
+    margin-left:32px;
+    margin-right: 64px;
+}
+.pr_edit .bl_title img {
+    width: 120px;
+    height: 120px;
+    margin-left:-08px;
+    margin-right:36px;
+    cursor: pointer;
+}
+.pr_edit .bl_title1 {
+    display: flex;
+    margin-bottom: 24px;
+}
+.pr_edit .bl_title1 p {
+    font-size:14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color:#161515;
+    margin-left:32px;
+    margin-right: 64px;
+}
+.pr_edit .bl_title1 img {
+    width: 120px;
+    height: 120px;
+    margin-left:12px;
+    margin-right:36px;
+    cursor: pointer;
+}
+.pr_edit .bl_title1 .img_text {
+    font-size:14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color:#161515;
+    margin-left:52px;
+    margin-right: 64px;
+}
+.pr_edit .bl_title textarea {
+    width: 559px;
+    height: 55px;
+    border: 1px solid #161515;
+    margin-top: 10px;
+    margin-left:26px;
+}
+.pr_edit .bl_title1 textarea {
+    width: 559px;
+    height: 370px;
+    border: 1px solid #161515;
+    margin-top: 10px;
+    margin-left:13px;
+}
+.pr_edit .bl_title1 .form-control {
+    width:200px;
+    height: 55px;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #161515;
+    margin-left:-16px;
+    margin-top:6px;
+    border-radius: 0px;
+    text-align: center;
+}
+.pr_edit .bl_title .form-control {
+    width:200px;
+    height: 55px;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #161515;
+    margin-left:-10px;
+    margin-top:6px;
+    border-radius: 0px;
+    text-align: center;
+}
