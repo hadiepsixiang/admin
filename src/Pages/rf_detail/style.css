@@ -1,0 +1,44 @@
+.rf-detail .info_line .stt_detail .stt_time1 {
+    margin-left:103px;
+}
+.rf-detail .stt_detail .st {
+    margin-left:71px;
+}
+.rf-detail .stt_detail .st1 {
+    margin-left:83px;
+}
+.rf-detail .stt_detail .st2 {
+    margin-left:81px;
+}
+.rf-detail .info_line1 {
+    margin-left:65px;
+}
+.rf-detail .info_line {
+    width:902px;
+    height:446px;
+    margin-left: 18px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-top: 18px;
+}
+.info_pay .widget2 {
+    display: flex;
+    margin-left: 583px;
+}
+.rf-detail .info_pay {
+    width:902px;
+    height:496px;
+    margin-left: 18px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-top: 18px;
+}
+.info_pay .widget2 h3 {
+    color:#376CE0;
+}
+.info_pay .widget2 .stt_num3 {
+    margin-left:46px;
+    color:#376CE0;
+}

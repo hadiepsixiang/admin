@@ -22,7 +22,7 @@ export default function P_detail() {
                 </div>
                 <div className="bl_title1">
                     <p>Phong cách</p>
-                    <input type="text" />
+                    <input type="text" className="pr_tx2" />
                 </div>
             </div>
             <div className="pr_form"> 

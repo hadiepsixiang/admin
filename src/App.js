@@ -19,6 +19,9 @@ import Cc_orders from './Pages/cc_orders/index'
 import Rf_orders from './Pages/rf_orders/index'
 import Bl_edit from './Pages/bl_edit/index'
 import Pr_edit from './Pages/p_edit/index'
+import Cc_detail from './Pages/cc_detail/index';
+import Or_detail from './Pages/or_detail/index';
+import Rf_detail from './Pages/rf_detail/index'
 
 import {
   BrowserRouter as Router,
@@ -48,6 +51,10 @@ function App() {
           <Route path="/rf_orders" element={<Rf_orders />} />
           <Route path="/blog_edit" element={<Bl_edit />} />
           <Route path="/product_edit" element={<Pr_edit />} />
+          <Route path="/cc_detail" element={<Cc_detail />} />
+          <Route path="/or_detail" element={<Or_detail />} />
+          <Route path="/rf_detail" element={<Rf_detail />} />
+
 
         </Routes>
       </div>

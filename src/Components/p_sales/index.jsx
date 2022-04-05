@@ -4,7 +4,7 @@ import "./style.css"
 export default function P_sales() {
     return (
         <div className="p_sale">
-            <h2 className="db-text02">Thông tin cơ bản</h2>
+            <h2 className="db-text02">Thông tin bán hàng</h2>
             <div className="bl_title">
                 <p>Phân loại hàng</p>
                 <input type="text" size="100" />
