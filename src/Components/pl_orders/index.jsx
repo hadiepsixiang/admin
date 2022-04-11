@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Phanloai() {
     return (
         <div className="pl_form">
-            <div class="pl_list">
+            <div className="pl_list">
                 <h2 className="db-subtext">Phân loại đơn hàng</h2>
                 <div className="order_pllist">
                     <Link to={'/wc_orders'}>
@@ -28,8 +28,8 @@ export default function Phanloai() {
                         Yêu cầu hoàn trả
                     </Link>
                 </div>
-                <div class="form-group">
-                    <select class="form-control">
+                <div className="form-group">
+                    <select className="form-control">
                         <option value=""> Mã đơn hàng</option>
                         <option value=""> Tên sản phẩm</option>
                     </select>

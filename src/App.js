@@ -9,19 +9,19 @@ import UserData from './Pages/userData/index'
 import BlogList from './Pages/bloglist/index'
 import CateList from './Pages/cateList/index'
 import RateList from './Pages/rateList/index'
-import Ch_products from './Pages/ch_products/index'
-import Hh_products from './Pages/hh_products/index'
-import Wc_orders from './Pages/wc_orders/index'
-import Wg_orders from './Pages/wg_orders/index'
-import Dl_orders from './Pages/dl_orders/index'
-import Dl1_orders from './Pages/delivered/index'
-import Cc_orders from './Pages/cc_orders/index'
-import Rf_orders from './Pages/rf_orders/index'
-import Bl_edit from './Pages/bl_edit/index'
-import Pr_edit from './Pages/p_edit/index'
-import Cc_detail from './Pages/cc_detail/index';
-import Or_detail from './Pages/or_detail/index';
-import Rf_detail from './Pages/rf_detail/index'
+import ChProducts from './Pages/ch_products/index'
+import HhProducts from './Pages/hh_products/index'
+import WcOrders from './Pages/wc_orders/index'
+import WgOrders from './Pages/wg_orders/index'
+import DlOrders from './Pages/dl_orders/index'
+import Dl1Orders from './Pages/delivered/index'
+import CcOrders from './Pages/cc_orders/index'
+import RfOrders from './Pages/rf_orders/index'
+import BlEdit from './Pages/bl_edit/index'
+import PrEdit from './Pages/p_edit/index'
+import CcDetail from './Pages/cc_detail/index';
+import OrDetail from './Pages/or_detail/index';
+import RfDetail from './Pages/rf_detail/index'
 
 import {
   BrowserRouter as Router,
@@ -41,19 +41,19 @@ function App() {
           <Route path="/blogs" element={<BlogList />} />
           <Route path="/cates" element={<CateList />} />
           <Route path="/rates" element={<RateList />} />
-          <Route path="/ch_products" element={<Ch_products />} />
-          <Route path="/hh_products" element={<Hh_products />} />
-          <Route path="/wc_orders" element={<Wc_orders />} />
-          <Route path="/wg_orders" element={<Wg_orders />} />
-          <Route path="/dl_orders" element={<Dl_orders />} />
-          <Route path="/dl1_orders" element={<Dl1_orders />} />
-          <Route path="/cc_orders" element={<Cc_orders />} />
-          <Route path="/rf_orders" element={<Rf_orders />} />
-          <Route path="/blog_edit" element={<Bl_edit />} />
-          <Route path="/product_edit" element={<Pr_edit />} />
-          <Route path="/cc_detail" element={<Cc_detail />} />
-          <Route path="/or_detail" element={<Or_detail />} />
-          <Route path="/rf_detail" element={<Rf_detail />} />
+          <Route path="/ch_products" element={<ChProducts />} />
+          <Route path="/hh_products" element={<HhProducts />} />
+          <Route path="/wc_orders" element={<WcOrders />} />
+          <Route path="/wg_orders" element={<WgOrders />} />
+          <Route path="/dl_orders" element={<DlOrders />} />
+          <Route path="/dl1_orders" element={<Dl1Orders />} />
+          <Route path="/cc_orders" element={<CcOrders />} />
+          <Route path="/rf_orders" element={<RfOrders />} />
+          <Route path="/blog_edit" element={<BlEdit />} />
+          <Route path="/product_edit" element={<PrEdit />} />
+          <Route path="/cc_detail" element={<CcDetail />} />
+          <Route path="/or_detail" element={<OrDetail />} />
+          <Route path="/rf_detail" element={<RfDetail />} />
 
 
         </Routes>

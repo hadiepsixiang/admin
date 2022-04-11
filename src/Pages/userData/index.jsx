@@ -1,6 +1,5 @@
-import React from 'react'
-import "./style.css"
-import { DataGrid } from '@mui/x-data-grid';
+import React from 'react';
+import "./style.css";
 
 
 
@@ -8,7 +7,8 @@ export default function userData() {
     return (
         <div className="userList">
             <div className="widgetLg">
-                    <table className="widgetLgTable">
+                <table className="widgetLgTable">
+                    <tbody>
                         <tr className="widgetLgTr">
                             <th className="widgetLgTh">Tên đăng nhập</th>
                             <th className="widgetLgTh">Email</th>
@@ -186,9 +186,9 @@ export default function userData() {
                                 />
                             </td>
                         </tr>
-                        
-                    </table>
-                </div>
+                    </tbody>
+                </table>
+            </div>
         </div>
     )
 }

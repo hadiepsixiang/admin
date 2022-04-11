@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function listtask() {
     return (
         <div className="list-task">
-            <div class="listtext">
+            <div className="listtext">
                 <h2 className="db-subtext">Danh sách công việc cần làm</h2>
                 <div className="jobtask">
                     <div className="jobtask_01">

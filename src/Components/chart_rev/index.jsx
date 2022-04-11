@@ -68,8 +68,8 @@ export default function chart_rev() {
                     <h2 className="db-text01">Doanh thu</h2>
                     <h6 className="db-text">(đv: trăm triệu)</h6>
                 </div>
-                <div class="form-group">
-                    <select class="form-control">
+                <div className="form-group">
+                    <select className="form-control">
                         <option value=""> Tuần trước</option>
                         <option value=""> Tháng trước</option>
                         <option value=""> 6 tháng trước</option>

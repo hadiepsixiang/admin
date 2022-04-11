@@ -35,7 +35,7 @@ export default function bl_edit() {
         </div>
         <div className="bl_title">
           <p>Danh mục bài viết</p>
-          <select class="form-control">
+          <select className="form-control">
             <option value=""> Phụ kiện điện thoại</option>
             <option value=""> Phụ kiện thời trang</option>
             <option value=""> Quà tặng</option>

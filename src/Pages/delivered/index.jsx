@@ -1,12 +1,12 @@
 import React from 'react'
-import Pl_orders from '../../Components/pl_orders/index'
-import Dl1_orders from '../../Components/d_livered/index'
+import PlOrders from '../../Components/pl_orders/index'
+import Dl1Orders from '../../Components/d_livered/index'
 
 export default function Dagiao() {
   return (
     <div>
-        <Pl_orders />
-        <Dl1_orders />
+      <PlOrders />
+      <Dl1Orders />
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
-import P_detail from '../../Components/p_detail/index'
-import P_sales from '../../Components/p_sales/index'
+import PDetail from '../../Components/p_detail/index'
+import PSales from '../../Components/p_sales/index'
 
 export default function Pr_edit() {
     return (
@@ -49,7 +49,7 @@ export default function Pr_edit() {
                 </div>
                 <div className="bl_title1">
                     <p>Danh mục sản phẩm</p>
-                    <select class="form-control">
+                    <select className="form-control">
                         <option value=""> Phụ kiện điện thoại</option>
                         <option value=""> Phụ kiện thời trang</option>
                         <option value=""> Quà tặng</option>
@@ -59,7 +59,7 @@ export default function Pr_edit() {
                 </div>
                 <div className="bl_title">
                     <p>Phân loại sản phẩm   </p>
-                    <select class="form-control">
+                    <select className="form-control">
                         <option value=""> Bảo vệ màn hình</option>
                         <option value=""> Dây sạc điện thoại</option>
                         <option value=""> Ốp điện thoại</option>
@@ -69,8 +69,8 @@ export default function Pr_edit() {
                     </select>
                 </div>
             </div>
-            <P_detail />
-            <P_sales />
+            <PDetail />
+            <PSales />
         </div>
     )
 }
