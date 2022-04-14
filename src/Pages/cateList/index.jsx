@@ -110,6 +110,7 @@ export default function cateList() {
                                     />
                                 </td>
                             </tr>
+                            <div></div>
                             <tr className="widgetLgTr">
                                 <td className="widgetLgName">Phụ kiện thời trang</td>
                                 <td className="widgetLgCate">Bông tai</td>
@@ -206,6 +207,7 @@ export default function cateList() {
                                     />
                                 </td>
                             </tr>
+                            <div></div>
                             <tr className="widgetLgTr">
                                 <td className="widgetLgName">Quà tặng</td>
                                 <td className="widgetLgCate">Cốc đôi</td>
@@ -302,6 +304,7 @@ export default function cateList() {
                                     />
                                 </td>
                             </tr>
+                            <div></div>
                             <tr className="widgetLgTr">
                                 <td className="widgetLgName">Trang trí nội thất</td>
                                 <td className="widgetLgCate">Bàn & Kệ gỗ</td>
@@ -398,6 +401,7 @@ export default function cateList() {
                                     />
                                 </td>
                             </tr>
+                            <div></div>
                             <tr className="widgetLgTr">
                                 <td className="widgetLgName">Văn phòng phẩm</td>
                                 <td className="widgetLgCate">Balo</td>

@@ -13,12 +13,14 @@
   line-height: 21.78px;
   color: #161515;
   margin-left: 32px;
+  margin-top:18px;
   display: inline-block;
 }
 .jobtask_01 {
   text-align: center;
   margin: 24px 18px 0 36px;
   text-decoration: none;
+  color: #161515;
 }
 .listnum {
   font-weight: 500;

@@ -1,16 +1,14 @@
 .cate-page {
     width:902px;
-    height:1526px;
-    margin-left: 18px;
     background-color: #ffffff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    margin-top: 18px;
+    margin: 18px 0px 50px 18px;
+    padding-bottom: 10px;
 }
 .widgetLgCate{
     font-weight: 300;
-  }
-  
+}
 .widgetLgActimg {
     width: 20px;
     height: 20px;

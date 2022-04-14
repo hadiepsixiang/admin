@@ -20,10 +20,6 @@
     display: flex;
     margin-left:20px;
 }
-.pl_form .pl_list p:hover,
-.pl_form .pl_list .active {
-  color: #E95324;
-}
 .pl_form .form-control {
     width:120px;
     height: 40px;
@@ -64,19 +60,11 @@
 .pl_form .pl_button {
     border: none;
     background: #E95324;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 10px 10px;
     border-radius: 8px;
-    width: 138px;
-    height:40px;
     margin-left: 227px;
     margin-top: 0px;
-}
-.pl_form .pl_button p{
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19.36px;
-    color: #ffffff;
-    height:50px;
-    margin: 10px 38px;
-    width: 138px;
-    cursor: pointer;
 }

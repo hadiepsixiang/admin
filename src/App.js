@@ -54,8 +54,6 @@ function App() {
           <Route path="/cc_detail" element={<CcDetail />} />
           <Route path="/or_detail" element={<OrDetail />} />
           <Route path="/rf_detail" element={<RfDetail />} />
-
-
         </Routes>
       </div>
     </Router>

@@ -7,7 +7,7 @@ export default function bloglist() {
         <div className="Blogs-page">
             <div className="bl_sth">
                 <h2 className="db-text02">50 bài viết</h2>
-                <Link to={'/blog_edit'} >
+                <Link to={'/blog_edit'} style={{textDecoration: 'none'}}>
                     <div className="btn-primary">
                         <img className="icon_03" src="././assets/images/plus.svg" alt="" />
                         <p className="text_03">Thêm bài viết</p>

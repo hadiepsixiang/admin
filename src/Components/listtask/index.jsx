@@ -25,7 +25,7 @@ export default function listtask() {
                         <div className="listnum">03</div>
                         <span>Yêu cầu hoàn trả</span>
                     </div>
-                    <Link to={'/hh_products'}>
+                    <Link to={'/hh_products'} style={{textDecoration: 'none'}}>
                         <div className="jobtask_01">
                             <div className="listnum">10</div>
                             <span>Sản phẩm hết hàng</span>

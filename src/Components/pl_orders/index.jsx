@@ -37,9 +37,7 @@ export default function Phanloai() {
                         <img src="../../assets/images/search.svg" alt="" />
                         <input type="text" />
                     </div>
-                    <div className="pl_button">
-                        <p className="text_03">Tìm kiếm</p>
-                    </div>
+                    <button className="pl_button">Tìm kiếm</button>
                 </div>
             </div>
 
