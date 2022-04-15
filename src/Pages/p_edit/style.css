@@ -1,6 +1,6 @@
 .pr_edit {
     width:902px;
-    height:1140px;
+    height:1090px;
     margin-left: 18px;
     background-color: #ffffff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -11,9 +11,10 @@
     font-size:18px;
     font-weight: 600;
     line-height: 21.78px;
-    color:#E95324;
+    color:#161515;
     margin-left:32px;
-    padding-top:12px;
+    margin-bottom:12px;
+    padding-top:18px;
     display: inline-block;
 }
 .pr_edit .bl_title {
@@ -25,8 +26,9 @@
     font-weight: 500;
     line-height: 16.94px;
     color:#161515;
-    margin-left:32px;
+    margin-left:36px;
     margin-right: 64px;
+    padding-top:12px;
 }
 .pr_edit .bl_title img {
     width: 120px;
@@ -34,6 +36,8 @@
     margin-left:-08px;
     margin-right:36px;
     cursor: pointer;
+    padding-top:8px;
+
 }
 .pr_edit .bl_title1 {
     display: flex;
@@ -44,8 +48,10 @@
     font-weight: 500;
     line-height: 16.94px;
     color:#161515;
-    margin-left:32px;
+    margin-left:36px;
     margin-right: 64px;
+    padding-top:12px;
+
 }
 .pr_edit .bl_title1 img {
     width: 120px;
@@ -53,6 +59,8 @@
     margin-left:12px;
     margin-right:36px;
     cursor: pointer;
+    padding-top:8px;
+
 }
 .pr_edit .bl_title1 .img_text {
     font-size:14px;
@@ -101,4 +109,7 @@
     margin-top:6px;
     border-radius: 0px;
     text-align: center;
+}
+.pr_edit .bl_title1 .vd_text {
+    font-size: 12px;
 }

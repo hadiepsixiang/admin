@@ -1,6 +1,6 @@
 .pr_detail {
     width:902px;
-    height:330px;
+    height:316px;
     margin-left: 18px;
     background-color: #ffffff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -11,9 +11,9 @@
     font-size:18px;
     font-weight: 600;
     line-height: 21.78px;
-    color:#E95324;
+    color:#161515;
     margin-left:32px;
-    padding-top:12px;
+    padding-top:18px;
     display: inline-block;
 }
 .pr_detail .bl_title input {
@@ -33,17 +33,21 @@
     font-weight: 500;
     line-height: 16.94px;
     color:#161515;
-    margin-left:32px;
+    margin-left:36px;
     margin-right: 16px;
     width: 100px;
+    padding-top:18px;
+
 }
 .pr_detail .bl_title1 p {
     font-size:14px;
     font-weight: 500;
     line-height: 16.94px;
     color:#161515;
-    margin-left:32px;
+    margin-left:36px;
     margin-right: 16px;
+    padding-top:18px;
+
 }
 .pr_detail .pr_form,.pr_detail .bl_title, .pr_detail .bl_title1{
     display: flex;
@@ -53,6 +57,8 @@
 }
 .pr_detail .pr_form {
     margin-bottom: 24px;
+    margin-top: 18px;
+
 }
 .pr_detail .bl_title1 .pr_tx1 {
     margin-left:69px;

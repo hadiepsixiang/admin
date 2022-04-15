@@ -1,8 +1,6 @@
 import { Pagination } from '@mui/material'
 import React from 'react'
 import "./style.css"
-
-
 export default function rateList() {
     return (
         <div className="Rates-page">
