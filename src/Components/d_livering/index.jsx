@@ -1,3 +1,4 @@
+import { Pagination } from '@mui/material'
 import React from 'react'
 import "./style.css"
 
@@ -133,6 +134,9 @@ export default function D_giao() {
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                <div className="rates_num">
+                    <Pagination count={5} hideNextButton={true} hidePrevButton={true} />
                 </div>
             </div>
         </div>

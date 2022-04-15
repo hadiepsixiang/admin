@@ -1,70 +1,75 @@
 .pl_form {
-    width:902px;
-    height:162px;
-    margin-left: 18px;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    margin-top: 18px;
+  width: 902px;
+  height: 162px;
+  margin-left: 18px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-top: 18px;
 }
 .pl_form .pl_list .order_pllist a {
-    font-size:14px;
-    font-weight: 500;
-    line-height: 16.94px;
-    color:#161515;
-    margin:16px 32px 0 32px;
-    cursor: pointer;
-    text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  color: #161515;
+  margin: 16px 32px 0 32px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.pl_form .pl_list .order_pllist a.active {
+  font-weight: 600;
+  color: #e95324;
 }
 .pl_form .order_pllist {
-    display: flex;
-    margin-left:20px;
+  display: flex;
+  margin-left: 20px;
 }
 .pl_form .form-control {
-    width:120px;
-    height: 40px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 500;
-    border: 1px solid #161515;
-    margin-right: 8px;
-    margin-left:0;
+  width: 120px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #161515;
+  margin-right: 8px;
+  margin-left: 0;
 }
 .pl_form .form-group {
-    margin-left: 52px;
-    margin-top: 16px;
-    cursor: pointer;
-    display: flex;
+  margin-left: 52px;
+  margin-top: 16px;
+  cursor: pointer;
+  display: flex;
 }
 .pl_form .search {
-    width: 292px;
-    height: 38px;
-    border: 1px solid #161515;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
+  width: 292px;
+  height: 38px;
+  border: 1px solid #161515;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
 }
 .pl_form .search input {
-    width: 220px;
-    margin-left: 20px;
-    border: none;
+  width: 220px;
+  margin-left: 20px;
+  border: none;
 }
 .pl_form .search input:focus {
-    outline: none;
+  outline: none;
 }
 .pl_form .search img {
-    margin: 0px 13px;
+  margin: 0px 13px;
 }
 .pl_form .pl_button {
-    border: none;
-    background: #E95324;
-    font-size: 14px;
-    font-weight: 600;
-    color: #FFFFFF;
-    padding: 10px 10px;
-    border-radius: 8px;
-    margin-left: 227px;
-    margin-top: 0px;
+  border: none;
+  background: #e95324;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 9px 23px;
+  border-radius: 8px;
+  margin-left: 258px;
+  margin-top: 0px;
+  cursor: pointer;
 }

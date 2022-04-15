@@ -1,3 +1,4 @@
+import { Pagination } from '@mui/material';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./style.css";
@@ -7,7 +8,7 @@ export default function bloglist() {
         <div className="Blogs-page">
             <div className="bl_sth">
                 <h2 className="db-text02">50 bài viết</h2>
-                <Link to={'/blog_edit'} style={{textDecoration: 'none'}}>
+                <Link to={'/blog_edit'} style={{ textDecoration: 'none' }}>
                     <div className="btn-primary">
                         <img className="icon_03" src="././assets/images/plus.svg" alt="" />
                         <p className="text_03">Thêm bài viết</p>
@@ -23,7 +24,6 @@ export default function bloglist() {
                                 <th className="widgetLgTh">Danh mục</th>
                                 <th className="widgetLgTh">Phân loại</th>
                                 <th className="widgetLgTh">Thao tác</th>
-
                             </tr>
                             <tr className="widgetLgTr">
                                 <td className="widgetLgName">Cách trang trí nội thất theo hướng tối giản</td>
@@ -180,7 +180,9 @@ export default function bloglist() {
                             </tr>
                         </tbody>
                     </table>
-
+                </div>
+                <div className="rates_num">
+                    <Pagination count={5} hideNextButton={true} hidePrevButton={true} />
                 </div>
             </div>
         </div >

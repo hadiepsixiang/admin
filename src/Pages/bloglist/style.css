@@ -1,55 +1,59 @@
 .Blogs-page {
-    width:902px;
-    height:585px;
-    margin-left: 18px;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    margin-top: 18px;
+  width: 902px;
+  height: 585px;
+  margin-left: 18px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin-top: 18px;
 }
-.Blogs-page .db-text02{
-    font-size:18px;
-    font-weight: 600;
-    line-height: 21.78px;
-    color:#E95324;
-    margin-left:32px;
-    padding-top:12px;
-    display: inline-block;
+.Blogs-page .db-text02 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  color: #e95324;
+  margin-left: 32px;
+  padding-top: 12px;
+  display: inline-block;
 }
 .Blogs-page .btn-primary {
-    border: none;
-    background: #E95324;
-    border-radius: 8px;
-    width: 168px;
-    height:45px;
-    margin-left: 580px;
-    margin-top: 12px;
-    cursor: pointer;
+  border: none;
+  background: #e95324;
+  border-radius: 8px;
+  width: 168px;
+  height: 45px;
+  margin-left: 580px;
+  margin-top: 12px;
+  cursor: pointer;
 }
-.Blogs-page .btn-primary p{
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19.36px;
-    color: #ffffff;
-    height: 52px;
-    margin: 0 112px;
-    width: 138px;
-    transform: translate(-50%, -50%);
+.Blogs-page .btn-primary p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #ffffff;
+  height: 52px;
+  margin: 0 112px;
+  width: 138px;
+  transform: translate(-50%, -50%);
 }
 .Blogs-page .btn-primary .icon_03 {
-    width: 24px;
-    height:24px;
-    margin: 12px 5px 0 10px;
+  width: 24px;
+  height: 24px;
+  margin: 12px 5px 0 10px;
 }
 .blogform {
-    margin-top: 18px;
+  margin-top: 18px;
 }
 .Blogs-page .bl_sth {
-    display: flex;
-    height:76px;
-    width: 902px;
-    background: #FFFFFF;
+  display: flex;
+  height: 76px;
+  width: 902px;
+  background: #ffffff;
 }
-.blog_form .widgetLgTable .widgetLgName, .blog_form .widgetLgTable .widgetLgCate {
-    font-size:14px;
+.blog_form .widgetLgTable .widgetLgName,
+.blog_form .widgetLgTable .widgetLgCate {
+  font-size: 14px;
+}
+.Blogs-page .css-wjh20t-MuiPagination-ul {
+  justify-content: center;
 }

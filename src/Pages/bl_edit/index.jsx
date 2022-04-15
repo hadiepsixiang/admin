@@ -10,7 +10,7 @@ export default function bl_edit() {
           <p>Tiêu đề bài viết</p>
           <textarea type="text" size="100" />
         </div>
-        <div className="bl_title">
+        <div className="bl_title" style={{ marginBottom: '30px' }}>
           <p>Hình ảnh bài viết</p>
           <div>
             <img src="././assets/images/a_img.png" alt="" />

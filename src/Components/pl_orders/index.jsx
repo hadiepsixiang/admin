@@ -1,7 +1,6 @@
 import React from 'react'
 import "./style.css"
-import { Link } from 'react-router-dom'
-
+import { NavLink } from 'react-router-dom'
 
 export default function Phanloai() {
     return (
@@ -9,24 +8,24 @@ export default function Phanloai() {
             <div className="pl_list">
                 <h2 className="db-subtext">Phân loại đơn hàng</h2>
                 <div className="order_pllist">
-                    <Link to={'/wc_orders'}>
+                    <NavLink to={'/wc_orders'}>
                         Chờ xác nhận
-                    </Link>
-                    <Link to={'/wg_orders'}>
+                    </NavLink>
+                    <NavLink to={'/wg_orders'}>
                         Chờ lấy hàng
-                    </Link>
-                    <Link to={'/dl_orders'}>
+                    </NavLink>
+                    <NavLink to={'/dl_orders'}>
                         Đang giao
-                    </Link>
-                    <Link to={'/dl1_orders'}>
+                    </NavLink>
+                    <NavLink to={'/dl1_orders'}>
                         Đã giao
-                    </Link>
-                    <Link to={'/cc_orders'}>
+                    </NavLink>
+                    <NavLink to={'/cc_orders'}>
                         Đơn hủy
-                    </Link>
-                    <Link to={'/rf_orders'}>
+                    </NavLink>
+                    <NavLink to={'/rf_orders'}>
                         Yêu cầu hoàn trả
-                    </Link>
+                    </NavLink>
                 </div>
                 <div className="form-group">
                     <select className="form-control">

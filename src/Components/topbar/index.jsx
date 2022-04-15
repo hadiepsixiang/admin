@@ -18,6 +18,9 @@ const admintitle = {
     'users': 'Quản lý tài khoản',
     'blog_edit': 'Thêm bài viết',
     'product_edit': 'Thêm sản phẩm',
+    'cc_detail': 'Quản lý đơn hàng /  Đơn hủy / Chi tiết đơn hàng ',
+    'or_detail': 'Quản lý đơn hàng / Đơn đã giao / Chi tiết đơn hàng ',
+    'rf_detail': 'Quản lý đơn hàng / Yêu cầu hoàn trả / Chi tiết đơn hàng '
 }
 
 export default function topbar() {
