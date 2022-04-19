@@ -1,6 +1,6 @@
 .or_stt, .or_history {
     width:902px;
-    height:156px;
+    height:126px;
     margin-left: 18px;
     background-color: #ffffff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -13,7 +13,8 @@
     line-height: 21.78px;
     color:#E95324;
     margin-left:32px;
-    padding-top:12px;
+    margin-bottom:16px;
+    padding-top:18px;
     display: inline-block;
 }
 .or_stt .stt_detail, .or_history .stt_detail, .info_line .stt_detail, .info_pay .stt_detail{
@@ -21,14 +22,14 @@
 }
 .or_stt .stt_detail p, .info_line .stt_detail p{
     margin-left: 77px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
     font-size:14px;
     font-weight: 500;
     line-height: 16.94px;
 }
 .or_history .stt_detail p {
     margin-left: 77px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
     font-size:14px;
     font-weight: 500;
     line-height: 16.94px;
@@ -61,18 +62,19 @@
     width: 111px;
     height: 99.9px;
     margin-left: 136px;
-    margin-top:24px;
+    margin-top:2px;
 }
 .info_line .info_line2 h5 {
     margin-left: 77px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
+    padding-top:12px;
     font-size:16px;
     font-weight: 600;
     line-height: 16.94px;
 }
 .info_pay {
     width:902px;
-    height:440px;
+    height:430px;
     margin-left: 18px;
     background-color: #ffffff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -103,7 +105,8 @@
 }
 .info_pay .stt_detail p {
     margin-left: 77px;
-    margin-bottom: 0;
+    padding-top: 8px;
+    margin-bottom: 8px;
     font-size:14px;
     font-weight: 500;
     line-height: 16.94px;
@@ -129,6 +132,7 @@
     color:#E95324;
 }
 .info_pay .widget1 h3 {
+    margin-top:16px;
     margin-left:46px;
     color:#161616;
 }

@@ -64,11 +64,12 @@
   line-height: 16.94px;
   color: #161515;
 }
-.widgetLgRate {
+.widgetLgRate p{
   font-size: 14px;
   font-weight: 400;
   line-height: 16.94px;
   color: #161515;
+  margin-bottom: 10px;
 }
 .widgetLgimg {
   width: 111px;
@@ -88,9 +89,12 @@
 }
 .rate1_1 img {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .rate1_2 img {
   margin-right: 12px;
+  margin-bottom: 10px;
+
 }
 .widgetLgTr {
   width: 831px;
